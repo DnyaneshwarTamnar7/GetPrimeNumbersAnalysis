@@ -1,0 +1,60 @@
+body { 
+    font-family: Arial; 
+    padding: 20px; 
+}
+
+input { 
+    margin: 5px; 
+    padding: 5px; 
+}
+
+button { 
+    padding: 6px 12px; 
+    cursor: pointer; 
+}
+
+table, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    padding: 5px; 
+}
+
+#modal { 
+    display: none; 
+    position: fixed; 
+    top: 20%; 
+    left: 20%; 
+    background: #fff; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    z-index: 1000; 
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab { 
+    display: none; 
+}
+
+#popup1 {
+ margin-right: 50px;
+}
+
+#one, .input {
+    display: flex;
+    flex-direction: row;
+}
+
+#two {
+    margin-top: 23px;
+}
+
+.tab.active { 
+    display: block; 
+    max-height: 430px;
+    overflow: auto;
+}

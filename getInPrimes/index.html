@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Get Prime Numbers Analysis</title>
+</head>
+<body>
+    <section id="input">
+        <div class="input">
+            <div id="one">
+                <div>
+                    <label for="first">Start Number</label><br>
+                    <input id="first" type="text" name="first">
+                </div>
+                <div>
+                    <label for="second">End Number</label><br>
+                    <input id="second" type="text" name="second">
+                </div>
+            </div>
+            <div id="two">
+                <div>
+                    <button onclick="getPrimesInRange()">Calculate</button>
+                </div>
+            </div>
+        </div>
+        <div id="result"></div>
+        <button onclick="openModal()">Details</button>
+    </section>
+    <section>
+        <div id="modal">
+            <div id="row">
+                <div class="tab" id="popup1"></div>
+                <div class="tab" id="popup2"></div>
+            </div>
+        </div>
+    </section>
+<script src="app.js"></script>
+</body>
+</html>
